@@ -1,0 +1,31 @@
+//git add. => To add and track all the files or folder inside the folder in which .git was initiated.
+//git commit -m "learning git fundamentals" =>To commit
+ * When we do commit it creates a snapshot(with particular id) or it is telling git that you are ready to push those changes to your remote. It is like a giant copy & paste method.
+* The commit id's represent at that particular commit timing what was actually there in your local files which you pushed on github.
+* The recent commit will be connected in ancestory form with previous commit. It means the recent commit will inherit from previous commits.
+** <git push origin master> ** //To push files which we commited to remote repository.
+git branch: git branches are nothing but a record of commit in github.
+master -->git branch.
+How to create github branch:
+** <git status> **//To check the git status
+** <git branch branch_name> ** //git branch develop
+** <git branch> ** //To know about branches
+Where '*' is specified, that is the branch where we were working currently.
+** <git checkout branch_name_created> ** //To change the current working branch.
+** <git status>**
+** <git add .>**
+** <git commit -m "trying new branch">**
+** <git branch>**
+** <git checkout branch> **
+
+** <git log> **
+
+
+Create a file in vs code
+** <git add .> **
+** <git status> **
+git commit -m "added new test python file"
+git branch
+
+
+
